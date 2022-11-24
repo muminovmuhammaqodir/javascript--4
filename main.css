@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.block {
+	margin: 90px 0 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 100px;
+}
+
+.circles {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.circle__left {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.circle__right {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.group-first,
+.group-second {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.group-first {
+	padding-left: 35px;
+}
+
+.circle__item {
+	width: 60px;
+	height: 60px;
+
+	box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+	border-radius: 50%;
+	background: rgb(117, 44, 140);
+	background: linear-gradient(
+		36deg,
+		rgba(117, 44, 140, 1) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
+.circle_ring {
+	width: 60px;
+	height: 60px;
+
+	box-shadow: 4px 6px 8px 0px rgba(34, 60, 80, 0.2);
+	border-radius: 50%;
+	background: rgb(225, 206, 84);
+	background: linear-gradient(
+		90deg,
+		rgba(225, 206, 84, 1) 0%,
+		rgba(242, 237, 211, 1) 100%
+	);
+}
+
+.form {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 100px;
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#form__input {
+	width: 67px;
+	height: 44px;
+
+	padding-left: 10px;
+	text-align: center;
+
+	border: 5px solid rgba(128, 128, 128, 0.7);
+	border-radius: 10px;
+	font-size: 29px;
+}
+
+.btn,
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9 {
+	padding: 30px;
+	border-radius: 5px;
+	border-color: azure;
+	background-color: rgb(101, 163, 234);
+	color: #fff;
+	font-size: 35px;
+
+     transition: all 0.5s ease;
+}
+
+.btn:hover,
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover {
+	box-shadow: 14px 12px 31px 9px rgba(34, 60, 80, 0.2);
+}
+
+.none {
+	display: none;
+}
